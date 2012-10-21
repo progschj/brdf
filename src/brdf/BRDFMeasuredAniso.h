@@ -48,7 +48,6 @@ infringement.
 
 #include <string>
 #include <GL/glew.h>
-#include <GL/glut.h>
 #include "BRDFBase.h"
 
 class BRDFMeasuredAniso : public BRDFBase

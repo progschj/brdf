@@ -81,6 +81,7 @@ pkgconfig.files = brdf.pc
 
 INSTALLS = target brdfs data images probes shaderTemplates pkgconfig
 
+LIBS += -lGLU
 
 !linux-mingw32-custom{
     LIBS += -lGLEW
